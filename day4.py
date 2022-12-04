@@ -13,11 +13,20 @@ def is_included(s1, s2):
     return s1 & s2 in (s1, s2)
 
 
-print(
-    sum(
-        [
-            is_included(*parse_line(line))
-            for line in Path("input4.txt").read_text().splitlines()
-        ]
-    )
+part1 = sum(
+    [
+        is_included(*parse_line(line))
+        for line in Path("input4.txt").read_text().splitlines()
+    ]
 )
+
+
+part2 = sum(
+    [
+        len(set.intersection(*parse_line(line))) >= 1
+        for line in Path("input4.txt").read_text().splitlines()
+    ]
+)
+
+print(f"Part1: {part1}")
+print(f"Part2: {part2}")

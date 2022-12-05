@@ -7,10 +7,16 @@ import re
 class State:
     stacks: list[list[str]]
 
-    def move(self, n: int, src: int, dst: int):
-        items = reversed(self.stacks[src - 1][-n:])
+    def move(self, n: int, src: int, dst: int, reverse=True):
+        items = self.stacks[src - 1][-n:]
+        if reverse:
+            items = reversed(items)
         self.stacks[src - 1] = self.stacks[src - 1][:-n]
-        self.stacks[dst - 1].extend(items)
+        self.stacks[dst - 1] = [*self.stacks[dst - 1], *items]
+
+    def __str__(self):
+        "Top representation of stacks"
+        return "".join([stack[-1] for stack in self.stacks if len(stack)])
 
 
 def parse_input() -> (State, tuple[int, int, int]):
@@ -35,8 +41,9 @@ def parse_input() -> (State, tuple[int, int, int]):
 
 
 state, movements = parse_input()
+state2 = State([*state.stacks])
 for movement in movements:
     state.move(*movement)
-
-part1 = "".join([stack[-1] for stack in state.stacks if len(stack)])
-print(f"Part1: {part1}")
+    state2.move(*movement, False)
+print(f"Part1: {state}")
+print(f"Part2: {state2}")

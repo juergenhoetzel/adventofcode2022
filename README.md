@@ -19,8 +19,8 @@ https://github.com/juergenhoetzel/adventofcode2022/blob/65da22aef4cb576cd1f9e90b
 
 ## Day 5
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/65da22aef4cb576cd1f9e90b20c474659b0decce/day4.py#L1-L49
+https://github.com/juergenhoetzel/adventofcode2022/blob/65da22aef4cb576cd1f9e90b20c474659b0decce/day5.py#L1-L49
 
 ## Day 6
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/65da22aef4cb576cd1f9e90b20c474659b0decce/day4.py#L1-L7
+https://github.com/juergenhoetzel/adventofcode2022/blob/65da22aef4cb576cd1f9e90b20c474659b0decce/day6.py#L1-L7

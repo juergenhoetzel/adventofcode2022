@@ -3,29 +3,32 @@
 
 ## Day 1
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day1.py#L1-L12
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day1.py#L1-L12
 
 ## Day 2
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day2.py#L1-L29
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day2.py#L1-L29
 
 ## Day 3
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day3.py#L1-L34
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day3.py#L1-L34
 
 ## Day 4
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day4.py#L1-L32
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day4.py#L1-L32
 
 ## Day 5
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day5.py#L1-L49
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day5.py#L1-L49
 
 ## Day 6
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day6.py#L1-L7
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day6.py#L1-L7
 
 ## Day 7
 
-https://github.com/juergenhoetzel/adventofcode2022/blob/121d5aeeca42e5fc787a6e5f2c2e8e16b64717b6/day7.py#L1-L64
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day7.py#L1-L64
 
+## Day 8
+
+https://github.com/juergenhoetzel/adventofcode2022/blob/62c9c33da1fe63f8e9a13f12f4702d09e7778382/day8.py#L1-L55

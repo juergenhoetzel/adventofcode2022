@@ -25,5 +25,31 @@ def visible_nodes(grid):
     return nodes
 
 
+def sight(grid, y, x):
+    height = grid[y][x]
+    ranges = [
+        zip([y] * len(grid), range(x - 1, -1, -1)),
+        zip([y] * len(grid), range(x + 1, len(grid))),
+        zip(range(y - 1, -1, -1), [x] * len(grid)),
+        zip(range(y + 1, len(grid)), [x] * len(grid)),
+    ]
+    total = 1
+    for r in ranges:
+        acc = 0
+        for y, x in r:
+            acc += 1
+            if grid[y][x] >= height:
+                break
+        total *= acc
+    return total
+
+
+def score_nodes(grid):
+    for y in range(1, len(grid) - 1):
+        for x in range(1, len(grid[y]) - 1):
+            yield sight(grid, x, y)
+
+
 n = len(visible_nodes(grid)) + len(grid) * 4 - 4
 print(f"Part1: {n}")
+print(f"Part2: {max(score_nodes(grid))}")

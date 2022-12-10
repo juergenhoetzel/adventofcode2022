@@ -51,4 +51,14 @@ def dir_size(p):
     return acc
 
 
-print(sum([x for p in dir_tree.keys() if (x := dir_size(p)) <= 100_000]))
+sum1 = sum([x for p in dir_tree.keys() if (x := dir_size(p)) <= 100_000])
+
+print(f"Part1: {sum1}")
+
+DISK_SIZE = 70000000
+used_space = dir_size(Path("/"))
+free_space = DISK_SIZE - used_space
+to_delete = 30000000 - free_space
+
+min2 = min([x for p in dir_tree.keys() if (x := dir_size(p)) >= to_delete])
+print(f"Part2: {min2}")

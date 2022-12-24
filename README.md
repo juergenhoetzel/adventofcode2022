@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/day%20📅-23-blue) ![](https://img.shields.io/badge/stars%20⭐-35-yellow) 	![](https://img.shields.io/badge/days%20completed-15-red)
+![](https://img.shields.io/badge/day%20📅-24-blue) ![](https://img.shields.io/badge/stars%20⭐-35-yellow) 	![](https://img.shields.io/badge/days%20completed-15-red)
 # Advent of Code 2022 solutions in 🐍 Python.
 
 ## Day 1
